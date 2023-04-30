@@ -1,3 +1,10 @@
+variable "region" {
+  description = "The AWS default region where you want to create resources."
+  type        = string
+  default     = "eu-west-1"
+}
+
+
 variable "environment" {
   description = "The environment / workspace used to organize resources."
   type        = string
