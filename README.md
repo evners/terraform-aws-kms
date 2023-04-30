@@ -1,12 +1,15 @@
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.4.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.65.0 |
 
 ## Modules
 
@@ -31,6 +34,7 @@ No modules.
 | <a name="input_environment"></a> [environment](#input\_environment) | The environment / workspace used to organize resources. | `string` | n/a | yes |
 | <a name="input_key_usage"></a> [key\_usage](#input\_key\_usage) | Specifies the intended use of the key. Valid values: `ENCRYPT_DECRYPT` or `SIGN_VERIFY`. Defaults to `ENCRYPT_DECRYPT` | `string` | `"ENCRYPT_DECRYPT"` | no |
 | <a name="input_multi_region"></a> [multi\_region](#input\_multi\_region) | Indicates whether the KMS key is a multi-Region (`true`) or regional (`false`) key. Defaults to `true` | `bool` | `true` | no |
+| <a name="input_region"></a> [region](#input\_region) | The AWS default region where you want to create resources. | `string` | `"eu-west-1"` | no |
 | <a name="input_resource"></a> [resource](#input\_resource) | The AWS resource that will be use KMS key. | `string` | n/a | yes |
 
 ## Outputs
