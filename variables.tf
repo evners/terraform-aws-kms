@@ -8,6 +8,7 @@ variable "region" {
 variable "environment" {
   description = "The environment / workspace used to organize resources."
   type        = string
+  default     = "default"
 }
 
 variable "description" {
