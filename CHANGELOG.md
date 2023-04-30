@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/evners/terraform-aws-kms/compare/v1.1.0...v1.2.0) (2023-04-30)
+
+
+### Features
+
+* remove environment variable ([ee9fb5c](https://github.com/evners/terraform-aws-kms/commit/ee9fb5ccb8fee99e4cbfc1ed37d78cdf498fb4ba))
+
 ## [1.1.0](https://github.com/evners/terraform-aws-kms/compare/v1.0.0...v1.1.0) (2023-04-30)
 
 
