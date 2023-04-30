@@ -4,13 +4,6 @@ variable "region" {
   default     = "eu-west-1"
 }
 
-
-variable "environment" {
-  description = "The environment / workspace used to organize resources."
-  type        = string
-  default     = "default"
-}
-
 variable "description" {
   description = "The description of the key as viewed in AWS console"
   type        = string

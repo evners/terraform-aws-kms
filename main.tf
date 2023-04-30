@@ -24,7 +24,6 @@ resource "aws_kms_key" "this" {
     Name        = local.name
     Terraform   = "true"
     Resource    = "kms-key"
-    Environment = var.environment
   }
 
 }
